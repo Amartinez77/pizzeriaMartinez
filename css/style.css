@@ -13,3 +13,24 @@
   color: aquamarine;
   background-color: rgba(0, 0, 0, 0.75);
 }
+
+.barra {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.sectionImg {
+  background-color: goldenrod;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.sectionImg img {
+  width: 90px;
+}
