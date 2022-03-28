@@ -111,53 +111,83 @@
   <main>
     <div class="container">
       <h1 class="text-center py-3">Reservas</h1>
-      <h2>completa el formulario</h2>
+      <h2 class="py-3">Completa el formulario</h2>
 
       <section class="row bgNegro">
 
         <article class="col-md-6">
 
 
-          <form class="row g-3">
+          <form class="row g-3 py-3">
             <div class="col-md-6">
-              <label for="text" class="form-label text-light">Nombre</label>
-              <input type="email" class="form-control" id="inputEmail4">
+              <label for="nombre" class="form-label text-light">Nombre</label>
+              <input type="text" class="form-control" id="nombre" placeholder="Pedro">
             </div>
             <div class="col-md-6">
-              <label for="text" class="form-label text-light">Apellido</label>
-              <input type="password" class="form-control" id="inputPassword4">
+              <label for="apellido" class="form-label text-light">Apellido</label>
+              <input type="text" class="form-control" id="apellido" placeholder="Picapiedra">
             </div>
             <div class="col-12">
-              <label for="inputAddress" class="form-label text-light">Address</label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-            </div>
-            <div class="col-12">
-              <label for="inputAddress2" class="form-label text-light">Address 2</label>
-              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+              <label for="inputAddress" class="form-label text-light">Dirección</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="florida 1254">
             </div>
             <div class="col-md-6">
-              <label for="inputCity" class="form-label text-light">City</label>
+              <label for="tel" class="form-label text-light">Teléfono</label>
+              <input type="tel" class="form-control" id="tel" placeholder="0114556666">
+            </div>
+
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label text-light">Ciudad</label>
               <input type="text" class="form-control" id="inputCity">
             </div>
-            <div class="col-md-4">
-              <label for="inputState" class="form-label text-light">State</label>
+            <div class="col-md-6">
+              <label for="inputState" class="form-label text-light">Provincia</label>
               <select id="inputState" class="form-select">
-                <option selected>Choose...</option>
-                <option>...</option>
+                <option selected>Selecciona...</option>
+                <option>Jujuy</option>
+                <option>Salta</option>
+                <option>Bs. As</option>
               </select>
             </div>
-            <div class="col-md-2">
-              <label for="inputZip" class="form-label">Zip</label>
-              <input type="text" class="form-control" id="inputZip">
+            <div class="col-md-6">
+              <label for="fecha" class="form-label text-light">Fecha</label>
+              <input type="date" class="form-control" id="fecha">
             </div>
             <div class="col-12">
+
+
+              <fieldset class="row mb-3">
+                <legend class="col-form-label col-sm-2 pt-0 text-light">Seleccione</legend>
+                <div class="col-sm-10">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1"
+                      checked>
+                    <label class="form-check-label text-light" for="gridRadios1">
+                      Mesa para 2
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                    <label class="form-check-label text-light" for="gridRadios2">
+                      Mesa para 4
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                    <label class="form-check-label text-light" for="gridRadios3">
+                      + 6 personas
+                    </label>
+                  </div>
+                </div>
+              </fieldset>
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" id="gridCheck">
                 <label class="form-check-label text-light" for="gridCheck">Confirma reserva </label>
               </div>
             </div>
             <div class="col-12">
-              <button type="submit" class="btn btn-primary">Sign in</button>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+              <button class="btn btn-secondary" type="reset" value="reset">Cancelar</button>
             </div>
           </form>
 
@@ -166,37 +196,12 @@
         <article class="col-md-6 my-4">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.872547053073!2d-65.86612958446585!3d-23.608903469236093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9403558cccbe9041%3A0x9164c69c7a51236b!2sSalina%20Grande!5e0!3m2!1ses-419!2sar!4v1648442660732!5m2!1ses-419!2sar"
-            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
 
         </article>
 
-
-
-
-
-
-
-
-
       </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </div>
 
   </main>
