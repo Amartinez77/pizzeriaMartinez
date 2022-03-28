@@ -53,3 +53,7 @@ body {
   vertical-align: -0.125em;
   fill: currentColor;
 }
+
+.bgNegro {
+  background-color: rgba(0, 0, 0, 0.75);
+}
