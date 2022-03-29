@@ -57,3 +57,23 @@ body {
 .bgNegro {
   background-color: rgba(0, 0, 0, 0.75);
 }
+
+/*                estilos menu.html                                  */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  /* rtl:remove */
+  letter-spacing: -0.05rem;
+}
+
+.negrita ul li p {
+  font-weight: bold;
+}
+
+/*                        fin estilos menu.html                        */
